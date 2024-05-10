@@ -11,7 +11,7 @@ TitanHelp is a full-stack web application designed to facilitate the reporting a
 ## Technologies Used
 - **Frontend**: React, Axios
 - **Backend**: Spring Boot, Spring Data JPA
-- **Database**: H2 Database (Development), Extendable to MySQL or PostgreSQL for production
+- **Database**: H2 Database (Development), Extendable to MySQL
 - **Other Tools**: Maven, Git for version control
 
 ## Getting Started
@@ -28,3 +28,30 @@ TitanHelp is a full-stack web application designed to facilitate the reporting a
    ```bash
    git clone https://github.com/yourusername/TitanHelp.git
    cd TitanHelp
+2. Navigate to the backend directory and build the project using Maven:
+   ```bash
+   cd backend
+   mvn clean install
+3. Run the Spring Boot application:
+   ```bash
+   mvn spring-boot:run
+4. Frontend Setup
+Navigate to the frontend directory from the project root:
+   ```bash
+   cd frontend
+5. Install the necessary npm packages:
+   ```bash
+   npm install
+6. Start the React application:
+   ```bash
+   npm start
+This will serve the app at **http://localhost:3000**.
+
+**Usage**
+- To create a ticket: Navigate to http://localhost:3000, fill out the ticket form, and submit.
+
+- To view tickets: Access the main page to see a list of all tickets.
+
+
+
+_Created by Ali Ahmadiavin_
