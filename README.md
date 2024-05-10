@@ -35,22 +35,22 @@ TitanHelp is a full-stack web application designed to facilitate the reporting a
 3. Run the Spring Boot application:
    ```bash
    mvn spring-boot:run
-4. Frontend Setup
-Navigate to the frontend directory from the project root:
+#### Frontend Setup
+1. Navigate to the frontend directory from the project root:
    ```bash
    cd frontend
-5. Install the necessary npm packages:
+2. Install the necessary npm packages:
    ```bash
    npm install
-6. Start the React application:
+3. Start the React application:
    ```bash
    npm start
 This will serve the app at **http://localhost:3000**.
 
-**Usage**
-- To create a ticket: Navigate to http://localhost:3000, fill out the ticket form, and submit.
+### **Usage**
+- **To create a ticket**: Navigate to http://localhost:3000, fill out the ticket form, and submit.
 
-- To view tickets: Access the main page to see a list of all tickets.
+- **To view tickets**: Access the main page to see a list of all tickets.
 
 
 
